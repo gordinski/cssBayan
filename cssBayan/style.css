@@ -89,6 +89,7 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+  border: none;
 }
 
 button,
@@ -185,4 +186,73 @@ template {
 
 [hidden] {
   display: none;
+}
+
+/* MAIN */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  background-color: #f5f5eb;
+}
+
+input {
+  display: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section {
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+
+  font-size: 18px;
+  text-align: left;
+  border-top: 1px solid #dadfe4;
+
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  max-height: 0;
+  overflow: hidden;
+
+  transition: max-height 0.5s ease 0s;
+}
+
+.body img {
+  margin-bottom: 40px;
 }
