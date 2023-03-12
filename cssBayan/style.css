@@ -114,6 +114,19 @@ input:checked~.accordion-label .answer img {
     opacity: 1;
     transform: scale(1);
   }
+
+  input:active~.accordion-label .question {
+    color: rgb(50, 0, 255);
+    opacity: 0.5;
+  }
+
+  input:active~.accordion-label .question p {
+    color: rgb(50, 0, 255);
+  }
+
+  input:active~.accordion-label .answer img {
+    opacity: 0.7;
+  }
 }
 
 @media (max-width: 820px) {
